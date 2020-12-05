@@ -1,3 +1,18 @@
+h1{
+	padding-top: 20px;
+
+}
+h4{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+span{
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
 #main-contents {	
 	margin: 0 0 0 0;
 	padding-top: 85px;
@@ -13,26 +28,77 @@
     padding-left: 0px;
     padding-right: 0px;
 }
-@media (min-width: 1200px)
-.main-contents {
-    width: 1170px;
-}
 
 .header-img{
-	background-image: url('img/especialidade/medical-physician-doctor-man1.png');
+	padding-top: 300px;
+	background-image: url('../img/especialidade/medical-physician-doctor-man1.png');
+	background-size: cover;
+}
+
+.img-cards{
+	object-fit: cover;
+}
+
+.card.card-image {
+    width: 95%;
+    background-position: center;
+    background-size: cover;
+}
+.card {
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.cartao{
+	height: 500px;
+}
+
+
+.custom-class {
+	display: flex;
+	padding-top: 30px;
+  }
+
+.clinica .equipe{
+	align-items: center;
+	padding-left: 10px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	background-color: #f6f2e9;
+}
+
+.equipe{
+	background-color: pink;
+
 }
 
 
 
 #footer{
 	position: relative;
-	background: #000000;
+	background: #524d4d;
 	width: 100%;
 	bottom: 0;
 	left: 0;
 	height:  100px;
 	clear: both;
-	margin-top: 167px;
+	margin-bottom:0;
+	display: block;
 }
 
 
@@ -45,7 +111,7 @@
 		top: auto;
 		left: auto;
 		height: 100px;
-		/*margin-top: 410px;*/
+		margin-bottom:0;
 	}
 
 }
@@ -56,25 +122,52 @@
 	padding-top: 10px;
 }
 
+.footer-credits{
+	background-color: #000000;
+	background-size: 50px;
+}
 
 .site-footer {
+	background-size: 1200px;
     background-color: #242729;
     background-image: none;
     background-position: top left;
     background-repeat: no-repeat;
     border-top: 0;
     background-size: auto;
-    color: #6a737c;
     padding-top: 0;
     padding-bottom: 0;
 }
+
+
+.header-text{
+	position: relative;
+	font-size: 28px;
+	color: #000000;
+	text-align: right;
+	padding-top: -100px;
+	
+}
+
+@media screen and (max-width: 767px){
+	#header-text{
+		position: relative;
+		font-size: 28px;
+		color: #000000;
+		text-align: right;
+		padding-top: -50%;		
+	}
+
+}
+
 
 nav-link-font{
 	font-size: 16px;
 }
 
 #wrapper {
-    background: #ffffff;
+	background: #ffffff;
+	width: auto;
 }
 #wrapper {
     position: relative;

@@ -6,18 +6,102 @@
     </head>
    
     <body>
-        <div id="header">
-            <%- include('partials/header.ejs')%>
-        </div>
-        
-      
-        <div id="main-contents">
-            <img src="img/especialidade/medical-physician-doctor-man1.png" width="100%" height="20%"/>
-
+        <div id="wrapper">
+            <div id="header">
+                <%- include('partials/header.ejs')%>
+            </div>
             
-        </div>
-    
-        <%- include('partials/javascript.ejs') %>
+        
+            <div id="main-contents">
+                <div class="header-img">
+                    <div class="header-text">
+                        <h5 class="text-header">Onde voçê encontra o melhor atendimento <br/>
+                            e especialidade da região<br/>
+                            Matsu Espaco Saúde</h5>
+                    </div>
+                </div>
+
+                
+                <div class="clinica">
+                    <h1 style="text-align: center; padding-bottom: 40px;">Ambiente</h1>
+                        <h4 style="text-align: center; padding-bottom: 10px;">Confira o nosso ambiente e venha nos conhecer!</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class=" card card-image img-card">
+                                    <img src="img/espaco/recepcao.jpg" height="200px"/>         
+                                </div>
+                                <span style="font-size: 16px;">Aqui é onde tudo acontece, nossos agendamentos e o melhor <br/>
+                                    atendimento que você vai encontrar</span>
+                            
+                            </div>
+                            <div class="col-md-4" style="padding-left: 10px;">
+                                <div  class="card card-image img-card">
+                                   <img src="img/espaco/recepcao1.jpg" height="200px"/>
+                                </div>
+                                <span>A orquídea branca é a representação de elegância e sofisticação. <br/>
+                                    Ela transmite inocência, pureza, amor puro e espiritualidade. <br/>
+                                    Entregar um arranjo de orquídea branca a alguém especial é uma <br/>
+                                    maneira de expressar amor puro e duradouro.</span>
+                            </div>
+                            <div class="col-md-4">
+                                <div  class="card card-image img-card">
+                                    <img src="img/espaco/consultorio.jpg" height="200px">
+                                </div>
+                                <span>Essa é nossa sala de atendimento dinâmico. <br/>
+                                    Venha fazer parte de um grupo no qual você se sinta à vontade</span>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-top: 20px;">
+                            <div class="col-md-6">
+                                <div class=" card card-image img-card">
+                                    <img src="img/espaco/sala_de_espera.jpg" height="300px"/>         
+                                </div>
+                                <span>Aqui é onde tudo acontece, nossos agendamentos e o melhor <br/>
+                                    atendimento que você vai encontrar</span>
+                            
+                            </div>
+                            <div class="col-md-6" style="padding-left: 10px;">
+                                <div  class="card card-image img-card">
+                                   <img src="img/espaco/sala_de_espera2.jpg" height="300px"/>
+                                </div>
+                                <span>A sofisticação do nosso ambiente conta com uma alta elevação <br/>
+                                    de humor e muito profissionalismo. <br/>
+                                    Nossa alegria é fazer com que você se sinta em casa.
+                            </div>
+                        </div>
+                   
+                </div>
+
+                <div class="equipe">
+                    <h1 style="text-align: center; padding-bottom: 40px;">Nossa equipe</h1>
+                    <div class="row" style="padding-top: 20px;">
+                        <div class="col-md-4">
+                            <div class="card-image img-card">
+                                <img src="img/equipe/drC.png" height="200px"/>         
+                            </div>
+                            <span>Aqui é onde tudo acontece, nossos agendamentos e o melhor <br/>
+                                atendimento que você vai encontrar</span>
+                        
+                        </div>
+                        <div class="col-md-4" style="padding-left: 10px;">
+                            <div  class="card-image img-card">
+                               <img src="img/equipe/drA.png" height="200px"/>
+                            </div>
+                            <span>A sofisticação do nosso ambiente conta com uma alta elevação <br/>
+                                de humor e muito profissionalismo. <br/>
+                                Nossa alegria é fazer com que você se sinta em casa.
+                        </div>
+                        <div class="col-md-4" style="padding-left: 10px;">
+                            <div  class="card-image img-card" style="align-items: center;">
+                               <img src="img/equipe/drB.png" height="200px"/>
+                            </div>
+                            <span>A sofisticação do nosso ambiente conta com uma alta elevação <br/>
+                                de humor e muito profissionalismo. <br/>
+                                Nossa alegria é fazer com que você se sinta em casa.
+                        </div>
+                    </div>
+                </div>
+                
     </body>
     <%- include('partials/footer.ejs') %>
 </html>

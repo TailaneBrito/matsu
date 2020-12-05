@@ -13,7 +13,7 @@ app.set("view engine", "html");
 app.set('views', __dirname + '/views')
 
 //virtual
-app.use('img', express.static(path.join(__dirname, "public/img")));
+app.use('images', express.static(path.join(__dirname, "public/img/especialidade/")));
 
 
 //static directories

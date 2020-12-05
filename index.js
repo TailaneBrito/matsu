@@ -12,6 +12,9 @@ app.set("view engine", "html");
 
 app.set('views', __dirname + '/views')
 
+//virtual
+app.use('img', express.static(path.join(__dirname, "public/img")));
+
 
 //static directories
 app.use(express.static("public"));

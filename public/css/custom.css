@@ -1,6 +1,6 @@
 #main-contents {	
 	margin: 0 0 0 0;
-	padding-top: 200px;
+	padding-top: 85px;
 	background-color: #ffffff;
 }
 
@@ -16,6 +16,10 @@
 @media (min-width: 1200px)
 .main-contents {
     width: 1170px;
+}
+
+.header-img{
+	background-image: url('img/especialidade/medical-physician-doctor-man1.png');
 }
 
 

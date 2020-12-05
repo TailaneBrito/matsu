@@ -3638,7 +3638,12 @@ input[type=submit].btn-block {
 	display: block;
 }
 .navbar {
-	padding: 0.5rem 1rem; display: flex; position: relative; flex-wrap: wrap; justify-content: space-between; align-items: center;
+	padding: 0.5rem 1rem; 
+	display: flex; 
+	position: relative; 
+	flex-wrap: wrap; 
+	justify-content: space-between; 
+	align-items: center;
 }
 .navbar > .container {
 	display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
@@ -3654,18 +3659,27 @@ input[type=submit].btn-block {
 }
 .navbar-brand:hover {
 	text-decoration: none;
+	
 }
 .navbar-nav {
-	list-style: none; padding-left: 70%; margin-bottom: 0px; display: flex; flex-direction: column; font-size: 16px;
+	list-style: none; 
+	padding-left: 60%; 
+	margin-bottom: 0px; 
+	display: flex; 
+	flex-direction: column; 
+	font-size: 22px;
+	color: #fff212;
 }
 .navbar-nav .nav-link {
 	padding-right: 0px; padding-left: 0px;
+	color: #fff212;
 }
 .navbar-nav .dropdown-menu {
 	float: none; position: static;
 }
 .navbar-text {
 	padding-top: 0.5rem; padding-bottom: 0.5rem; display: inline-block; 
+	
 }
 .navbar-collapse {
 	flex-grow: 1; flex-basis: 100%; align-items: center;

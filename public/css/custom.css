@@ -1,7 +1,4 @@
-h1{
-	padding-top: 20px;
 
-}
 h4{
 	padding-top: 10px;
 	padding-bottom: 40px;
@@ -42,7 +39,7 @@ span{
 .card.card-image {
     width: 95%;
     background-position: center;
-    background-size: cover;
+	background-size: cover;
 }
 .card {
     font-weight: 400;
@@ -58,15 +55,12 @@ span{
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #ffffff;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,0.125);
     border-radius: .25rem;
 }
 
-.cartao{
-	height: 500px;
-}
 
 
 .custom-class {
@@ -78,16 +72,26 @@ span{
 	align-items: center;
 	padding-left: 10px;
 	padding-top: 100px;
-	padding-bottom: 20px;
 	background-color: #f6f2e9;
 }
 
+.clinica {
+	padding-bottom: 50px;
+	padding-left: 50px;
+	align-content: center;
+}
+
 .equipe{
-	background-color: pink;
+	background-color: #fff212;
+	padding-bottom: 100px;
 
 }
 
-
+.especialidades{
+	background-color:#fff212;
+	height: 70px;
+	padding: 10px 10px 10px 20px;
+}
 
 #footer{
 	position: relative;
@@ -125,6 +129,28 @@ span{
 .footer-credits{
 	background-color: #000000;
 	background-size: 50px;
+}
+
+
+.h1-home{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+
+.pic-content{
+	width: 95%;
+	font-size: 16px;
+	font-weight: 600;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: transparent;
+	padding-bottom: 10px;
+}
+
+.semi-head{
+	text-align: center;
 }
 
 .site-footer {
@@ -167,7 +193,7 @@ nav-link-font{
 
 #wrapper {
 	background: #ffffff;
-	width: auto;
+	width: 100%;
 }
 #wrapper {
     position: relative;

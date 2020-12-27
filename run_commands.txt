@@ -1,0 +1,4 @@
+nodemon -e js,html app.js
+npm install --save body-parser
+npm install --save cookie-parser
+npm install --save session

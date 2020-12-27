@@ -16,8 +16,10 @@ app.set('views', __dirname + '/views')
 app.use('images', express.static(path.join(__dirname, "public/img/especialidade/")));
 
 
+
 //static directories
 app.use(express.static("public"));
-app.use("helpers", express.static("helpers"));
+app.use(express.static('pages'));
+app.use(express.static('views'));
 
 app.listen(port, () => console.log(`Listening on port ${port}`))

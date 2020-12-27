@@ -11,6 +11,10 @@ router.get('/agendamento', (req, res) => {
     res.render('pages/agendamento.html')
 });
 
+router.get('/agendamento2', (req, res) => {
+    res.render('pages/agendamento2.html')
+});
+
 
 
 router.get('/contato', (req, res) => {

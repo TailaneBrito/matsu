@@ -15,8 +15,6 @@ const lastDayIndex = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDay
 
 const nextDays = 6 - lastDayIndex;
 
-console.log(lastDayIndex)
-
 const months = [
     "Janeiro",
     "Fevereiro",
@@ -75,7 +73,7 @@ document.querySelector(".next").addEventListener("click", () =>{
 
 function selectOption(){
     var hoje = document.querySelector(".today");
-    var selected = hoje.nodeValue;
+    var selected = hoje.value;
     console.log(selected);
 }
 
